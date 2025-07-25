@@ -148,19 +148,22 @@ main > section{
  margin-top: 10px;
 
 }
-/* .sample-img{
+.sample-img{
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 10px;
-} */
+}
 /* flowers-lovers */
 .flower-lovers{
-  gap: 30px;
+  gap: 300px;
   margin-top: 120px;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
+  /* justify-content: center; */
+  align-content: center;
+  /* justify-content: space-between; */
   /* gap: 50px; */
+  padding-left: 40px;
 }
  .plants-img{
   position: relative;
@@ -295,7 +298,7 @@ main > section{
   /* right: 150px; 
   /* display: flex; */
   flex-direction: column;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   text-align: center;
   margin-top: 0px;
@@ -378,10 +381,28 @@ input{
     flex-direction: column;
     
   }
+  
+  .flower-img{
+    width: 100%;
+    justify-content: center;
+    /* padding-right: 100px; */
+    /* flex: 1; */
+     margin-bottom: 50px;
+  }
+  /* .flower-gap{
+     margin-top: 50px;
+  } */
+  .flower-lovers{
+    gap: 5px;
+  }
   .plants-img{
    
     width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
   }
+  
   .banner-content{
     padding-right: 0;
     order: 2;
@@ -399,15 +420,33 @@ input{
   .banner-title{
     font-size: 2rem;
   }
+  .trusted-img{
+     display: none;
+  }
   .plants-grid{
-    flex-direction: column;
+    /* flex-direction: column; */
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
+  .plants-section{
+    margin-top: 30px;
+  }
+  .sample-img{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+ .latest{
+  margin-top: 30px;
+ }
   .featured-plants{
      flex-direction: column;
      align-items: center;
      padding: 10px;
+     margin-top:30px ;
   }
   .bloom, .ana, .zabo{
     width: 100%;
@@ -433,7 +472,9 @@ input{
   .ana-bloom-gap{
     margin-bottom: 25px;
   }
-  
+  .join-part{
+    margin-top: 40px;
+  }
   .container{
     /* position: absolute; */
     top: 50%;
@@ -466,6 +507,7 @@ input{
   }
   .flower-footer{
     flex-direction: column;
+    margin-top: 30px;
   }
 }
   /* .sample-img img{
