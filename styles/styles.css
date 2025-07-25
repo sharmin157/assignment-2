@@ -183,7 +183,98 @@ main > section{
   font-size: 3.1rem;
   color: #000000;
 }
+.latest{
+  justify-content: center;
+  text-align: center;
+}
+.featured-plants{
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+  /* gap: 30px; */
+}
+.card img{
+  max-width: 100%;
+  height: auto;
+}
+.bloom{
+  width: 388px;
+  height: 208;
+  border: 1px solid;
+  border-radius: 22px;
+  border: none;
+  margin-bottom: 20px;
+}
+.ana{
+  width: 388px;
+  height: 208;
+  border: 1px solid;
+  border-radius: 22px;
+  border: none;
+}
+.zabo{
+  width: 900px;
+  height: 530px;
+  border: 1px solid;
+  border-radius: 30px;
+  border: none;
+}
+.overlay1{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.overlay2{
+  position: absolute;
+  bottom: 80px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.overlay3{
+  position: absolute;
+  top: 110px;
+  /* left: 90px; */
+  right: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bloom-plant{
+  font-weight: bold;
+  font: 1.25rem;
+  color: #FFFFFF;
+}
+.zabo-plant{
+  font-weight: bold;
+  font-size:2.5rem;
+  color: #FFFFFF;
+}
 
+.btn{
+  font-weight: 700;
+  font-size: 1.12rem;
+  color: #FFFFFF;
+}
+.btn-1{
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #FFFFFF;
+}
 /* responsive */
 @media screen and (max-width: 576px) {
   .nav-item:not(.cart-item){
@@ -219,6 +310,7 @@ main > section{
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
+}
   /* .sample-img img{
     width: 100%;
     max-width: 48%;
@@ -227,7 +319,7 @@ main > section{
   } */
    
   
-}
+/* }
 @media screen and (min-width: 576px) and (max-width: 992px) {
 .nav-item:not(.cart-item){
     display: none;
@@ -259,4 +351,4 @@ main > section{
   
   
   
-}
+} */
