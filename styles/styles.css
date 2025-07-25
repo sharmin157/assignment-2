@@ -51,7 +51,7 @@
   color: #000000;
   font-size: 1.125rem;
 }
-.navbar, .banner,main {
+.navbar, .banner,main,footer {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -286,7 +286,7 @@ main > section{
   height: 580px;
   
   border: 1px solid;
-  border-radius: 30px;
+  /* border-radius: 30px; */
 }
 .container{
   position: absolute;
@@ -340,6 +340,34 @@ input{
   border: none;
   margin-right: 0;
 }
+.flower-footer{
+  margin-top: 130px;
+  justify-content: space-around;
+}
+.foot-item{
+  list-style: none;
+  margin-bottom: 15px;
+  
+}
+
+.foot-a{
+  text-decoration: none;
+}
+.footer-img{
+  
+  /* padding: 10px; */
+  display: flex;
+ justify-content: center;
+ 
+   align-items: flex-start;
+ gap: 40px;
+  
+}
+.footer-p{
+  font-weight: 400;
+  font-size: 1,2rem;
+  color: rgba(0, 0, 0, 0.5);
+}
 
 /* responsive */
 @media screen and (max-width: 576px) {
@@ -375,6 +403,69 @@ input{
     flex-direction: column;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+  }
+  .featured-plants{
+     flex-direction: column;
+     align-items: center;
+     padding: 10px;
+  }
+  .bloom, .ana, .zabo{
+    width: 100%;
+    height: auto;
+  }
+   .overlay3{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+   .zabo-plant{
+    font-size: 1.2rem;
+    white-space: nowrap;
+  }
+   .btn-1{
+    font-size: 1.1rem;
+    padding: 6px 12px;
+    white-space: nowrap;
+  }
+  
+  .ana-bloom-gap{
+    margin-bottom: 25px;
+  }
+  
+  .container{
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .bunch{
+    font-size: 1.5rem;
+  }
+  .gap{
+    flex-direction: row;
+    align-items: center;
+   flex-wrap: nowrap;
+  }
+  .my-input{
+    width: 60%;
+    
+    font-size: 0.9rem;
+  }
+  .subs{
+    width: 40%;
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+  .news-img{
+    width: 700px;
+  }
+  .flower-footer{
+    flex-direction: column;
   }
 }
   /* .sample-img img{
